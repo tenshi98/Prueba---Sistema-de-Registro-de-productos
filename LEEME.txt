@@ -1,0 +1,12 @@
+Instalación
+1.- Importar la base de datos PostgreSQL (la base de datos se llama prueba y el schema se llama public)
+2.- Cambiar los datos de configuración del archivo config.php en la ruta app/config.php, cambiar las siguientes variables:
+    $BaseDeDatos : base de datos local donde se importara la base de datos
+    $usuario     : usuario local del equipo
+    $contraseña  : contraseña del usuario local del equipo
+3.- Una vez hechos los cambios estará todo listo para hacer las pruebas, solo queda levantar el proyecto en el host local
+
+Configuración del servidor utilizado
+Version de Apache: 2.4.54
+Version de PHP: 8.2.22
+Version PostgreSQL: 17.4

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registro de productos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+    <main class="container">
+        <section>
+            <h2>Formulario de producto</h2>
+
+            <form id="FormNewData" name="FormNewData" autocomplete="off" method="POST" action="" role="form" novalidate enctype="multipart/form-data">
+                <div class="grid">
+                    <label>
+                        Código
+                        <input type="text" id="codigo" name="codigo" placeholder="Ingrese Código">
+                    </label>
+                    <label>
+                        Nombre
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre">
+                    </label>
+                </div>
+
+                <div class="grid">
+                    <label>
+                        Bodega
+                        <select id="id_bodega" name="id_bodega" required="">
+                            <option value="0" selected="">Seleccione una opción</option>
+                        </select>
+                    </label>
+                    <label>
+                        Sucursal
+                        <select id="id_sucursal" name="id_sucursal" required="">
+                            <option value="0" selected="">Seleccione una opción</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="grid">
+                    <label>
+                        Moneda
+                        <select id="id_moneda" name="id_moneda" required="">
+                            <option value="0" selected="">Seleccione una opción</option>
+                        </select>
+                    </label>
+                    <label>
+                        Precio
+                        <input type="text" id="precio" name="precio" placeholder="Ingrese Precio">
+                    </label>
+                </div>
+
+                <p>Material del Producto</p>
+                <div class="grid">
+                    <label for="checkbox_1">
+                        <input type="hidden"                   name="checkbox_1" value="1">
+                        <input type="checkbox" id="checkbox_1" name="checkbox_1" value="2">
+                        Plástico
+                    </label>
+                    <label for="checkbox_2">
+                        <input type="hidden"                   name="checkbox_2" value="1">
+                        <input type="checkbox" id="checkbox_2" name="checkbox_2" value="2">
+                        Metal
+                    </label>
+                    <label for="checkbox_3">
+                        <input type="hidden"                   name="checkbox_3" value="1">
+                        <input type="checkbox" id="checkbox_3" name="checkbox_3" value="2" checked="">
+                        Madera
+                    </label>
+                    <label for="checkbox_4">
+                        <input type="hidden"                   name="checkbox_4" value="1">
+                        <input type="checkbox" id="checkbox_4" name="checkbox_4" value="2" checked="">
+                        Vidrio
+                    </label>
+                    <label for="checkbox_5">
+                        <input type="hidden"                   name="checkbox_5" value="1">
+                        <input type="checkbox" id="checkbox_5" name="checkbox_5" value="2">
+                        Textil
+                    </label>
+                </div>
+
+                <div class="grid">
+                    <label>
+                        Descripción
+                        <textarea id="descripcion" name="descripcion"></textarea>
+                    </label>
+                </div>
+
+                <div class="box">
+                    <button type="submit">Guardar Producto</button>
+                </div>
+            </form>
+
+
+        </section>
+    </main>
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>
