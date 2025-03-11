@@ -105,7 +105,7 @@ INSERT INTO "public"."sucursales_listado" VALUES (4, 2, 'B2 Sucursal 2');
 INSERT INTO "public"."sucursales_listado" VALUES (5, 2, 'B2 Sucursal 3');
 INSERT INTO "public"."sucursales_listado" VALUES (6, 3, 'B3 Sucursal 1');
 INSERT INTO "public"."sucursales_listado" VALUES (7, 4, 'B4 Sucursal 1');
-INSERT INTO "public"."sucursales_listado" VALUES (8, 4, 'B4 Sucursal 1');
+INSERT INTO "public"."sucursales_listado" VALUES (8, 4, 'B4 Sucursal 2');
 
 -- ----------------------------
 -- Alter sequences owned by
