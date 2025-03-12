@@ -7,8 +7,6 @@ input,select,textarea {border: 1px solid #373c44;border-radius: 0.25rem;outline:
 input:not([type="checkbox"]),select,textarea {margin-bottom: 1rem;}
 input:not([type="checkbox"]),select,textarea {padding: 0.75rem 1rem;}
 input:not([type="checkbox"]),select,textarea {width: 100%;}
-input[type="text"]:required, input[type="color"]:required, input[type="date"]:required, input[type="email"]:required, input[type="number"]:required, input[type="password"]:required, input[type="time"]:required, select:required {background: url(../img/required.png) no-repeat 5px center;background-color: #fff !important;padding-left: 25px !important;}
-input[type="text"]:required:valid, input[type="color"]:required:valid, input[type="date"]:required:valid, input[type="email"]:required:valid, input[type="number"]:required:valid, input[type="password"]:required:valid, input[type="time"]:required:valid, select:valid, textarea:valid {background-color: #fff !important;}
 button[type="submit"]{width: 50%;background-color: #1aab8a;color: #fff;padding: 1rem;border: 1px solid #1aab8a;border-radius: 0.25rem;outline: 0;box-shadow: none;text-align: center;cursor: pointer;}
 button[type="submit"]:hover{    background-color: #16997a;}
 

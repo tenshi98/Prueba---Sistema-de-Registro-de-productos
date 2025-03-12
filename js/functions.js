@@ -95,7 +95,7 @@ function SendDataForms(Metodo, Direccion, Informacion, Options) {
             //transformo a objeto
             const obj = JSON.parse(jqXHR.responseText);
             //Vaciar select y poner opcion por defecto
-            $("#"+Options.addIn).empty().append('<option value="0" selected="">Seleccione una opción</option>');
+            $("#"+Options.addIn).empty().append('<option value="0" selected=""></option>');
             //Agregar elementos al select
             for ( i = 0; i < obj.length; i++) {
                 $("#"+Options.addIn).append('<option value="'+obj[i].id+'">'+obj[i].nombre+'</option>');
